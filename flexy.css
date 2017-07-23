@@ -310,6 +310,12 @@ body * {
         flex-basis: 100%;
     }
 }*/
+@media only screen and (max-width: 768px) {
+  .flex-row {
+    flex-direction: column; }
+
+  .flex-row-reverse {
+    flex-direction: column-reverse; } }
 @media only screen and (min-width: 576px) {
   .col-sm-1 {
     flex-basis: 8.33333%; }
@@ -381,13 +387,7 @@ body * {
     flex-basis: 91.66667%; }
 
   .col-md-12 {
-    flex-basis: 100%; }
-
-  .flex-row {
-    flex-direction: column; }
-
-  .flex-row-reverse {
-    flex-direction: row-reverse; } }
+    flex-basis: 100%; } }
 @media only screen and (min-width: 992px) {
   .col-lg-1 {
     flex-basis: 8.33333%; }

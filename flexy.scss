@@ -436,6 +436,15 @@ $col: 100%;
     }
 }*/
 
+@media only screen and (max-width: 768px) {
+    .flex-row {
+        flex-direction: column;
+    }
+    .flex-row-reverse {
+        flex-direction: column-reverse;
+    }
+}
+
 @media only screen and (min-width: 576px) {
     .col-sm-1 {
         flex-basis: $col / 12;
@@ -511,12 +520,6 @@ $col: 100%;
     }
     .col-md-12 {
         flex-basis: $col;
-    }
-    .flex-row {
-        flex-direction: column;
-    }
-    .flex-row-reverse {
-        flex-direction: row-reverse;
     }
 }
 
