@@ -305,7 +305,7 @@ body * {
 
 /* devices */
 @media screen and (min-width: 1024px) {
-  .wrap {
+  .fixed-container {
     width: 100%; } }
 @media only screen and (min-width: 576px) {
   .col-sm-1 {
