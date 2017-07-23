@@ -428,11 +428,13 @@ $col: 100%;
 
 /* devices */
 
+
+/*
 @media screen and (min-width:1024px) {
     .fixed-container {
         flex-basis: 100%;
     }
-}
+}*/
 
 @media only screen and (min-width: 576px) {
     .col-sm-1 {

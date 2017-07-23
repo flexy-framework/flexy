@@ -304,9 +304,12 @@ body * {
   padding: 0 0 0 100px; }
 
 /* devices */
-@media screen and (min-width: 1024px) {
-  .fixed-container {
-    flex-basis: 100%; } }
+/*
+@media screen and (min-width:1024px) {
+    .fixed-container {
+        flex-basis: 100%;
+    }
+}*/
 @media only screen and (min-width: 576px) {
   .col-sm-1 {
     flex-basis: 8.33333%; }
