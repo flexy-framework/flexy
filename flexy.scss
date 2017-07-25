@@ -452,6 +452,12 @@ $col-11: $col / 12 * 11;
     }
 }*/
 
+@media only screen and (max-width: 500px) {
+    [class*="padding-"] {
+        padding: 5px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .flex-row {
         flex-direction: column;
@@ -509,9 +515,6 @@ $col-11: $col / 12 * 11;
     .col-sm-12 {
         flex-basis: $col;
         max-width: $col;
-    }
-    [class*="padding-"] {
-        padding: 5px;
     }
 }
 

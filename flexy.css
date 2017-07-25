@@ -314,6 +314,9 @@ body * {
         flex-basis: 100%;
     }
 }*/
+@media only screen and (max-width: 500px) {
+  [class*="padding-"] {
+    padding: 5px; } }
 @media only screen and (max-width: 768px) {
   .flex-row {
     flex-direction: column; }
@@ -367,10 +370,7 @@ body * {
 
   .col-sm-12 {
     flex-basis: 100%;
-    max-width: 100%; }
-
-  [class*="padding-"] {
-    padding: 5px; } }
+    max-width: 100%; } }
 @media only screen and (min-width: 768px) {
   .col-md-1 {
     flex-basis: 8.33333%;
