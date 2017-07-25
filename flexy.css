@@ -7,11 +7,15 @@ URL:
 */
 /* layout */
 body * {
-  display: flex;
   box-sizing: border-box; }
 
 /*grids*/
 /* For mobile phones: */
+.main-container,
+.fixed-container,
+[class*="col-"] {
+  display: flex; }
+
 [class*="col-xs-"] {
   flex-basis: 100%; }
 

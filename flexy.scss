@@ -13,7 +13,6 @@ URL:
 
 body {
     * {
-        display: flex;
         box-sizing: border-box;
     }
 }
@@ -35,6 +34,12 @@ $col-10: $col / 12 * 10;
 $col-11: $col / 12 * 11;
 
 /* For mobile phones: */
+
+.main-container,
+.fixed-container,
+[class*="col-"] {
+    display: flex;
+}
 
 [class*="col-xs-"] {
     flex-basis: $col;
