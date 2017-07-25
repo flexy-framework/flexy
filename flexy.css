@@ -369,7 +369,7 @@ body * {
     flex-basis: 100%;
     max-width: 100%; }
 
-  [class*="padding"] {
+  [class*="padding-"] {
     padding: 5px; } }
 @media only screen and (min-width: 768px) {
   .col-md-1 {

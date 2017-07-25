@@ -510,7 +510,7 @@ $col-11: $col / 12 * 11;
         flex-basis: $col;
         max-width: $col;
     }
-    [class*="padding"] {
+    [class*="padding-"] {
         padding: 5px;
     }
 }
