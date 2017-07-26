@@ -9,22 +9,58 @@ URL:
 body * {
   box-sizing: border-box; }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block !important; }
+
 /*grids*/
 /* For mobile phones: */
 .main-container,
 .fixed-container,
 [class*="col-"] {
-  display: flex; }
+  display: flex;
+  height: auto; }
 
 [class*="col-xs-"] {
   flex-basis: 100%; }
 
 .main-container {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  width: 100%; }
 
 .fixed-container {
-  max-width: 1366px; }
+  max-width: 1366px !important; }
+
+/* Typography */
+.txt-center {
+  text-align: center; }
+
+.txt-justify {
+  text-align: justify; }
+
+.txt-left {
+  text-align: left; }
+
+.txt-right {
+  text-align: right; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+.lowercase {
+  text-transform: lowercase; }
+
+.smallcaps {
+  font-variant: small-caps; }
 
 /* helpers */
 /*--These are helper classes. 
@@ -314,8 +350,8 @@ body * {
         flex-basis: 100%;
     }
 }*/
-@media only screen and (max-width: 500px) {
-  [class^="padding-"] {
+@media (max-width: 500px) {
+  [class*="padding-"] {
     padding: 10px; } }
 @media only screen and (max-width: 768px) {
   .flex-row {
