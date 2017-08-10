@@ -335,7 +335,7 @@ $col-11: $col / 12 * 11;
 }
 
 .padding-left-right-40 {
-    padding: 0x 40px;
+    padding: 0px 40px;
 }
 
 .padding-left-right-50 {
@@ -490,6 +490,258 @@ $col-11: $col / 12 * 11;
     padding: 0 0 0 100px;
 }
 
+/*---Margin--*/
+.margin-5 {
+    margin: 5px;
+}
+
+.margin-10 {
+    margin: 10px;
+}
+
+.margin-15 {
+    margin: 15px;
+}
+
+.margin-20 {
+    margin: 20px;
+}
+
+.margin-25 {
+    margin: 25px;
+}
+
+.margin-30 {
+    margin: 30px;
+}
+
+.margin-40 {
+    margin: 40px;
+}
+
+.margin-50 {
+    margin: 50px;
+}
+
+.margin-100 {
+    margin: 100px;
+}
+
+.margin-top-bottom-5 {
+    margin: 5px 0px;
+}
+
+.margin-top-bottom-10 {
+    margin: 10px 0px;
+}
+
+.margin-top-bottom-15 {
+    margin: 15px 0px;
+}
+
+.margin-top-bottom-20 {
+    margin: 20px 0px;
+}
+
+.margin-top-bottom-25 {
+    margin: 25px 0px;
+}
+
+.margin-top-bottom-30 {
+    margin: 30px 0px;
+}
+
+.margin-top-bottom-40 {
+    margin: 40px 0px;
+}
+
+.margin-top-bottom-50 {
+    margin: 50px 0px;
+}
+
+.margin-top-bottom-100 {
+    margin: 100px 0px;
+}
+
+.margin-left-right-5 {
+    margin: 0px 5px;
+}
+
+.margin-left-right-10 {
+    margin: 0px 10px;
+}
+
+.margin-left-right-15 {
+    margin: 0px 15px;
+}
+
+.margin-left-right-20 {
+    margin: 0px 20px;
+}
+
+.margin-left-right-25 {
+    margin: 0px 25px;
+}
+
+.margin-left-right-30 {
+    margin: 0px 30px;
+}
+
+.margin-left-right-40 {
+    margin: 0px 40px;
+}
+
+.margin-left-right-50 {
+    margin: 0px 50px;
+}
+
+.margin-left-right-100 {
+    margin: 0px 100px;
+}
+
+.margin-top-5 {
+    margin: 5px 0 0 0;
+}
+
+.margin-top-10 {
+    margin: 10px 0 0 0;
+}
+
+.margin-top-15 {
+    margin: 15px 0 0 0;
+}
+
+.margin-top-20 {
+    margin: 20px 0 0 0;
+}
+
+.margin-top-25 {
+    margin: 25px 0 0 0;
+}
+
+.margin-top-30 {
+    margin: 30px 0 0 0;
+}
+
+.margin-top-40 {
+    margin: 40px 0 0 0;
+}
+
+.margin-top-50 {
+    margin: 50px 0 0 0;
+}
+
+.margin-top-100 {
+    margin: 100px 0 0 0;
+}
+
+.margin-right-5 {
+    margin: 0 5px 0 0;
+}
+
+.margin-right-10 {
+    margin: 0 10px 0 0;
+}
+
+.margin-right-15 {
+    margin: 0 15px 0 0;
+}
+
+.margin-right-20 {
+    margin: 0 20px 0 0;
+}
+
+.margin-right-25 {
+    margin: 0 25px 0 0;
+}
+
+.margin-right-30 {
+    margin: 0 30px 0 0;
+}
+
+.margin-right-40 {
+    margin: 0 40px 0 0;
+}
+
+.margin-right-50 {
+    margin: 0 50px 0 0;
+}
+
+.margin-right-100 {
+    margin: 0 100px 0 0;
+}
+
+.margin-bottom-5 {
+    margin: 0 0 5px 0;
+}
+
+.margin-bottom-10 {
+    margin: 0 0 10px 0;
+}
+
+.margin-bottom-15 {
+    margin: 0 0 15px 0;
+}
+
+.margin-bottom-20 {
+    margin: 0 0 20px 0;
+}
+
+.margin-bottom-25 {
+    margin: 0 0 25px 0;
+}
+
+.margin-bottom-30 {
+    margin: 0 0 30px 0;
+}
+
+.margin-bottom-40 {
+    margin: 0 0 40px 0;
+}
+
+.margin-bottom-50 {
+    margin: 0 0 50px 0;
+}
+
+.margin-bottom-100 {
+    margin: 0 0 100px 0;
+}
+
+.margin-left-5 {
+    margin: 0 0 0 5px;
+}
+
+.margin-left-10 {
+    margin: 0 0 0 10px;
+}
+
+.margin-left-15 {
+    margin: 0 0 0 15px;
+}
+
+.margin-left-20 {
+    margin: 0 0 0 20px;
+}
+
+.margin-left-25 {
+    margin: 0 0 0 25px;
+}
+
+.margin-left-30 {
+    margin: 0 0 0 30px;
+}
+
+.margin-left-40 {
+    margin: 0 0 0 40px;
+}
+
+.margin-left-50 {
+    margin: 0 0 0 50px;
+}
+
+.margin-left-100 {
+    margin: 0 0 0 100px;
+}
 
 /* devices */
 
@@ -519,254 +771,254 @@ $col-11: $col / 12 * 11;
 @media only screen and (min-width: 576px) {
     .col-sm-1 {
         flex-basis: $col-1;
-        max-width: $col-1;
+        width: $col-1;
     }
     .col-sm-2 {
         flex-basis: $col-2;
-        max-width: $col-2;
+        width: $col-2;
     }
     .col-sm-3 {
         flex-basis: $col-3;
-        max-width: $col-3;
+        width: $col-3;
     }
     .col-sm-4 {
         flex-basis: $col-4;
-        max-width: $col-4;
+        width: $col-4;
     }
     .col-sm-5 {
         flex-basis: $col-5;
-        max-width: $col-5;
+        width: $col-5;
     }
     .col-sm-6 {
         flex-basis: $col-6;
-        max-width: $col-6;
+        width: $col-6;
     }
     .col-sm-7 {
         flex-basis: $col-7;
-        max-width: $col-7;
+        width: $col-7;
     }
     .col-sm-8 {
         flex-basis: $col-8;
-        max-width: $col-8;
+        width: $col-8;
     }
     .col-sm-9 {
         flex-basis: $col-9;
-        max-width: $col-9;
+        width: $col-9;
     }
     .col-sm-10 {
         flex-basis: $col-10;
-        max-width: $col-10;
+        width: $col-10;
     }
     .col-sm-11 {
         flex-basis: $col-11;
-        max-width: $col-11;
+        width: $col-11;
     }
     .col-sm-12 {
         flex-basis: $col;
-        max-width: $col;
+        width: $col;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .col-md-1 {
         flex-basis: $col-1;
-        max-width: $col-1;
+        width: $col-1;
     }
     .col-md-2 {
         flex-basis: $col-2;
-        max-width: $col-2;
+        width: $col-2;
     }
     .col-md-3 {
         flex-basis: $col-3;
-        max-width: $col-3;
+        width: $col-3;
     }
     .col-md-4 {
         flex-basis: $col-4;
-        max-width: $col-4;
+        width: $col-4;
     }
     .col-md-5 {
         flex-basis: $col-5;
-        max-width: $col-5;
+        width: $col-5;
     }
     .col-md-6 {
         flex-basis: $col-6;
-        max-width: $col-6;
+        width: $col-6;
     }
     .col-md-7 {
         flex-basis: $col-7;
-        max-width: $col-7;
+        width: $col-7;
     }
     .col-md-8 {
         flex-basis: $col-8;
-        max-width: $col-8;
+        width: $col-8;
     }
     .col-md-9 {
         flex-basis: $col-9;
-        max-width: $col-9;
+        width: $col-9;
     }
     .col-md-10 {
         flex-basis: $col-10;
-        max-width: $col-10;
+        width: $col-10;
     }
     .col-md-11 {
         flex-basis: $col-11;
-        max-width: $col-11;
+        width: $col-11;
     }
     .col-md-12 {
         flex-basis: $col;
-        max-width: $col;
+        width: $col;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .col-lg-1 {
         flex-basis: $col-1;
-        max-width: $col-1;
+        width: $col-1;
     }
     .col-lg-2 {
         flex-basis: $col-2;
-        max-width: $col-2;
+        width: $col-2;
     }
     .col-lg-3 {
         flex-basis: $col-3;
-        max-width: $col-3;
+        width: $col-3;
     }
     .col-lg-4 {
         flex-basis: $col-4;
-        max-width: $col-4;
+        width: $col-4;
     }
     .col-lg-5 {
         flex-basis: $col-5;
-        max-width: $col-5;
+        width: $col-5;
     }
     .col-lg-6 {
         flex-basis: $col-6;
-        max-width: $col-6;
+        width: $col-6;
     }
     .col-lg-7 {
         flex-basis: $col-7;
-        max-width: $col-7;
+        width: $col-7;
     }
     .col-lg-8 {
         flex-basis: $col-8;
-        max-width: $col-8;
+        width: $col-8;
     }
     .col-lg-9 {
         flex-basis: $col-9;
-        max-width: $col-9;
+        width: $col-9;
     }
     .col-lg-10 {
         flex-basis: $col-10;
-        max-width: $col-10;
+        width: $col-10;
     }
     .col-lg-11 {
         flex-basis: $col-11;
-        max-width: $col-11;
+        width: $col-11;
     }
     .col-lg-12 {
         flex-basis: $col;
-        max-width: $col;
+        width: $col;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .col-xl-1 {
         flex-basis: $col-1;
-        max-width: $col-1;
+        width: $col-1;
     }
     .col-xl-2 {
         flex-basis: $col-2;
-        max-width: $col-2;
+        width: $col-2;
     }
     .col-xl-3 {
         flex-basis: $col-3;
-        max-width: $col-3;
+        width: $col-3;
     }
     .col-xl-4 {
         flex-basis: $col-4;
-        max-width: $col-4;
+        width: $col-4;
     }
     .col-xl-5 {
         flex-basis: $col-5;
-        max-width: $col-5;
+        width: $col-5;
     }
     .col-xl-6 {
         flex-basis: $col-6;
-        max-width: $col-6;
+        width: $col-6;
     }
     .col-xl-7 {
         flex-basis: $col-7;
-        max-width: $col-7;
+        width: $col-7;
     }
     .col-xl-8 {
         flex-basis: $col-8;
-        max-width: $col-8;
+        width: $col-8;
     }
     .col-xl-9 {
         flex-basis: $col-9;
-        max-width: $col-9;
+        width: $col-9;
     }
     .col-xl-10 {
         flex-basis: $col-10;
-        max-width: $col-10;
+        width: $col-10;
     }
     .col-xl-11 {
         flex-basis: $col-11;
-        max-width: $col-11;
+        width: $col-11;
     }
     .col-xl-12 {
         flex-basis: $col;
-        max-width: $col;
+        width: $col;
     }
 }
 
 @media only screen and (min-width: 1400px) {
     .col-xxl-1 {
         flex-basis: $col-1;
-        max-width: $col-1;
+        width: $col-1;
     }
     .col-xxl-2 {
         flex-basis: $col-2;
-        max-width: $col-2;
+        width: $col-2;
     }
     .col-xxl-3 {
         flex-basis: $col-3;
-        max-width: $col-3;
+        width: $col-3;
     }
     .col-xxl-4 {
         flex-basis: $col-4;
-        max-width: $col-4;
+        width: $col-4;
     }
     .col-xxl-5 {
         flex-basis: $col-5;
-        max-width: $col-5;
+        width: $col-5;
     }
     .col-xxl-6 {
         flex-basis: $col-6;
-        max-width: $col-6;
+        width: $col-6;
     }
     .col-xxl-7 {
         flex-basis: $col-7;
-        max-width: $col-7;
+        width: $col-7;
     }
     .col-xxl-8 {
         flex-basis: $col-8;
-        max-width: $col-8;
+        width: $col-8;
     }
     .col-xxl-9 {
         flex-basis: $col-9;
-        max-width: $col-9;
+        width: $col-9;
     }
     .col-xxl-10 {
         flex-basis: $col-10;
-        max-width: $col-10;
+        width: $col-10;
     }
     .col-xxl-11 {
         flex-basis: $col-11;
-        max-width: $col-11;
+        width: $col-11;
     }
     .col-xxl-12 {
         flex-basis: $col;
-        max-width: $col;
+        width: $col;
     }
 }
